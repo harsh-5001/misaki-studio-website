@@ -24,15 +24,15 @@ export default ({
     <div
       {...divProps}
       style={{ ...style }}
-      className={`${className}  ${id} ${styles["E21"]}`}
+      className={`${className}  ${id} ${styles["E2"]}`}
       ref={(element) => {
         (rootElement as any).current = element;
         divProps?.ref?.(element);
       }}
     >
-      <div className={` ${id} ${styles["E22"]}`}>
-        <div className={` ${id} ${styles["E23"]}`}>
-          <span className={` ${id} ${styles["E24"]}`}>{"Harsh"}</span>
+      <div className={` ${id} ${styles["E3"]}`}>
+        <div className={` ${id} ${styles["E4"]}`}>
+          <span className={` ${id} ${styles["E5"]}`}>{"Harsh"}</span>
         </div>
       </div>
     </div>
